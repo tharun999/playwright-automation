@@ -1,19 +1,26 @@
 //let{test,expect}=require('@playwright/test');
 import {test,expect} from '@playwright/test'
 
-/*test('Verify the Url',async ({page})=>{
-    let url='https://www.saucedemo.com/';
+let page
+let url='https://www.saucedemo.com/'
+
+test.beforeAll( async({browser})=>{
+    const context=await browser.newContext()
+    page=await context.newPage()
+    
     await page.goto(url);
+
+})
+
+test('Verify the Url',async ()=>{
     await expect(page).toHaveURL(url);
     console.log('Page url is : ' , await page.url());
     await expect(page).toHaveTitle('Swag Labs');
     console.log('we successfully loaded the Page');
-})*/
+})
 
-test('Veirfy login page',async  ({page})=>{
+test('Veirfy login page',async  ()=>{
     console.log('Trying to verify login page')
-    let url='https://www.saucedemo.com/'
-    await page.goto(url)
     await page.fill('id=password','secret_sauce')
     await page.locator('id=user-name').fill('standard_user')// await page.click('locator');
     await page.click("//*[@value='Login']")
@@ -33,7 +40,6 @@ test('Veirfy login page',async  ({page})=>{
             console.log('Couldnt find the expected link ,so trying to search again')
             continue
         }
-
     }
     await page.close()
 
