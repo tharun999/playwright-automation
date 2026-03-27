@@ -25,7 +25,9 @@ export default defineConfig({
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: 'html',
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
+  //globalSetup:'./global-setup.js',
   use: {
+    
     /* Base URL to use in actions like `await page.goto('')`. */
     // baseURL: 'http://localhost:3000',
 
@@ -36,9 +38,28 @@ export default defineConfig({
   /* Configure projects for major browsers */
   projects: [
     {
-      name: 'chromium',
-      use: { ...devices['Desktop Chrome'] },
-    }
+    
+      name:'Sauce-chrome',
+      use:{
+        browserName:'chromium',
+        baseURL:'https://www.saucedemo.com/',
+        storageState:'state-sauce.json',
+
+      },
+    },
+    {
+      name:'nike-chrome',
+      use:{
+        browserName:'chromium',
+        baseURL:'https://www.nike.in/',
+        storageState:'state-nike.json',
+      },
+    },
+
+   // {
+     // name:'chromium',
+   //   use: { ...devices['Desktop chrome'] },
+   // },
 
    // {
    //   name: 'firefox',

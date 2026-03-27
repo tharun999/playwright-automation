@@ -23,10 +23,14 @@ test('Built in locators',async ({page})=>{
     await page.getByPlaceholder('Username').fill('standard_user')
     await page.getByPlaceholder('Password').fill('secret_sauce')
     await page.getByRole('button',{type:'submit'}).click()
+    await page.context().storageState({path:'state.json'})
+})
+
+test ('',async ({page})=>{
+    test.use({storageState:'state.json'})
     await page.getByText('Swag Labs').toBeVisible
     await page.click('#shopping_cart_container')
     let cart_locator=await page.locator("//*[@class='title']")
     expect(cart_locator).toBeVisible()
-
 
 })

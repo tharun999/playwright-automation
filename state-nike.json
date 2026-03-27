@@ -1,0 +1,107 @@
+{
+  "cookies": [
+    {
+      "name": "x-nrt",
+      "value": "",
+      "domain": ".www.nike.in",
+      "path": "/auth/v1/jwt-token/refresh",
+      "expires": 1795328845.76828,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Strict"
+    },
+    {
+      "name": "bm_ss",
+      "value": "ab8e18ef4e",
+      "domain": ".www.nike.in",
+      "path": "/",
+      "expires": 1774596443.625198,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "bm_so",
+      "value": "AD6E2E8EEDFD7B643611482210C2CDA9AD02B887DDE1743260F573A21EDC0D08~YAAQRaPPF0jXweWcAQAAFuD5LQe7AHXIo5l7BQjNDuvk1CG6A8IFqWoHzuAGb1cgr/hLbpPH/BfwQSnHXbyc8qY+Gj6JJUp4ejDQXULm06nfGAKRdIQm9i252ZgIwYyvNBOfBk/DrDwCQWri/Cn4m263KX5vWGU3OQ0eVVXnYhBXNMtVGHqga0V/VGqHZQPm8vBkuiGcIoDd6g3idSOrdI2n+QVJoZryuaFREY/UPc5DKe1LOveZrsmyqwop6jI3mOZDB3eojBEvw3kq6QwtFZOvkAGRgdoQgWGOwfLRkxmOP5LdPD6LsViTnfBryX1uh8rkqm26JHOIkkYpats80EgqCmIEK1pLkdkdtnSuMZ5aFV25sTOanI0NeMTLiiM0xEDrw1W+TqsPEAVtaeA9SKRo0xXaPTgn1kjYw3gxxgFZRINswnOgKqnZ06i0L0+VvH0Ui+yi5+6Q9HPByx1mKb5+p0kfKX4BQvDSPkT8baB4ZsZeOxqWFQ==",
+      "domain": ".www.nike.in",
+      "path": "/",
+      "expires": 1774679243.625326,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "bm_lso",
+      "value": "AD6E2E8EEDFD7B643611482210C2CDA9AD02B887DDE1743260F573A21EDC0D08~YAAQRaPPF0jXweWcAQAAFuD5LQe7AHXIo5l7BQjNDuvk1CG6A8IFqWoHzuAGb1cgr/hLbpPH/BfwQSnHXbyc8qY+Gj6JJUp4ejDQXULm06nfGAKRdIQm9i252ZgIwYyvNBOfBk/DrDwCQWri/Cn4m263KX5vWGU3OQ0eVVXnYhBXNMtVGHqga0V/VGqHZQPm8vBkuiGcIoDd6g3idSOrdI2n+QVJoZryuaFREY/UPc5DKe1LOveZrsmyqwop6jI3mOZDB3eojBEvw3kq6QwtFZOvkAGRgdoQgWGOwfLRkxmOP5LdPD6LsViTnfBryX1uh8rkqm26JHOIkkYpats80EgqCmIEK1pLkdkdtnSuMZ5aFV25sTOanI0NeMTLiiM0xEDrw1W+TqsPEAVtaeA9SKRo0xXaPTgn1kjYw3gxxgFZRINswnOgKqnZ06i0L0+VvH0Ui+yi5+6Q9HPByx1mKb5+p0kfKX4BQvDSPkT8baB4ZsZeOxqWFQ==~1774592843945",
+      "domain": ".www.nike.in",
+      "path": "/",
+      "expires": 1777184843,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "bm_sz",
+      "value": "D17990CDAB543FF2ABD5E9A05F4D9CA9~YAAQQ6PPF5UNUuCcAQAAq+H5LR8xEwuoDWyTKnekDzyYr/MEZBrJgbsMXjgwHmWZz5tmD7CdkBbDOBt0doRon72FQjDvtclkSkqL2v9CP7wxYgBJuFcaTbYcjYsrB4lM9YyBkjJcd7x8u9kqsTYuscjXWG+oKPCc0d9xDTLxuXKygQnONrZ8Cj+NufMSKJifwjtFwftu7YlJWNwdFGhC79q4Soj3oRIh+l5tlOO5rbxO9OyGh/15LqIk+odoei0FXKaMVwz4rIIEjesOTh/4OtON+OCSs6Gef0JD9VbqfEaebaR5lEhQrhceTWK8oY0u4RwNh4gaNwcBCHzuOajQFbFp502nL277Y5Ra2OS4gJqVHOz0liQoRbO839NUFAo6Q3ZHj27dGLcEKPav02LLHY3mHC9VDeAn/4CB1Xx1tfxP0LXY1ED6pDsZGkB2~4604229~3355960",
+      "domain": ".www.nike.in",
+      "path": "/",
+      "expires": 1774607243.03961,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "PHPSESSID",
+      "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzaWQiOiIwYzVkNWVkZmIyMzM0NTM4YmRmMzc2MWUxZTlhODhkNCIsImN1c3RvbWVyLW9iaiI6eyJ1aWQiOiIwYzVkNWVkZmIyMzM0NTM4YmRmMzc2MWUxZTlhODhkNCIsImRvbSI6Ik5JS0UiLCJsb2dtIjoiIiwiZ3Vlc3QiOnRydWUsInRuIjoiTklLRSJ9LCJ3cm5fbW9kZSI6dHJ1ZSwicmVmIjoiUFJPRF9OSUtFIiwiYmsiOiIyMDUwNTRhZjRlIiwidHlwIjoiYXQiLCJpYXQiOjE3NzQ1NzMwNDUsImV4cCI6MTc3NzE2NTA0NSwidmVyc2lvbiI6IlYxIn0.E6B6nKAGY6h1L9iNIYoULmz2XvlJmopD_qSn8HCmeOI",
+      "domain": ".www.nike.in",
+      "path": "/",
+      "expires": 1774679245.768187,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "bm_s",
+      "value": "YAAQQ6PPF8MNUuCcAQAAs+n5LQUHkpJE7i9zrpu2Eu0qlNLaZg5gKno2Wf2Dl/DeSFyiMWF19JOaRLnzx4aIQCfh2OuyKbOmFQSi1P5sxCoYtVJMKm+tLQoExePTPpcolTrDsTGHz97Gv/swo5vsK213s1I6ShIz3X4CK3oB8UyiAznTgsDinAQceQlIPrqLGZejpz/+r4BkbMXQQDXziOYT70SWauC8pLHhIztEUdkd+mHgP0haQ6+ib4EBnC6/pXTbOG7J/vNUxuNCW3rdiBqrEh7LF+af7oL0rC35kJjsfOQgIdoKWqpVP6LhPzK4f3KQ2777kRgaof11XTvCm1QCgh9xFiZwrgfQcS0/piJ8P5fz/TOkLgfhLijo7Lx1uvNFnb41beiOrcXZ5uSPwa0JIKSrelg709g/UHYjDdAiVChoncuRa03iVa9DZh0Ma0Or0Ljh9EtxGZOeSY5kjzwIPE58zzYFx5OomiDt/j+sUv9V/5mLVg+ah+mekwPm7+eE1c/Sit+3Wxboc+jTo2BvbDMWRtqDAjZu8a48cUF8hWoimFpoXx3aMpX9d70a6F7sV2iKw95vfgoLTW4RxkKQ6dOgmmR9p0YwJ9w6Tkzs7/OkvFBLH3Mc1mT+6uG90kmHRhvN9oLhqBexefKgJqH1eCMnqmRGvYzOCDqGBy3YM3coUTgvuBrYKgpFmUMKA6SHEbVJhVRhs0xR53k24ui08sPoWfHNgblG0ZsZu43Fh8JWOlHwnQkZwLdbtM7o5GVtz6sR8hxKBDVBl4jD9i0U46ZsvZ2umdzc2fqyCC0uk1oEejAHZ8YaBsQ=",
+      "domain": ".www.nike.in",
+      "path": "/",
+      "expires": 1777271243.155273,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_abck",
+      "value": "776EA03F5419C851CFAE1444426DCD6F~-1~YAAQQ6PPF9YNUuCcAQAAOOz5LQ/WcmkfzeGD/IkDtW655r7871iIGnRm2yWpdmtxi76muZ4kLCQpoYtCsxmJ5JejH7sGOXG06JVtz52dvkYTaloTy/IeSf9P7TNbFOQQnn1cv8vwgt5Mhy/GzciLcwhFQgNT+UuZVMW6Wyr/X9ZtOS0FaSzC+1CUjSHkyp2bHcqMVZd6d+Q0hNLaEyypeWCxn0bWcZ7A20MBv5rNlC3oqqsyMxL36lQSBn12z6c/EHmiY9Kb3uRThHkl8HNagAsMexaf3pHancu8g1H56KsXXTKnmprjlIpC6dqZqkE2gfkJ6Asm/eOn359xZGlOD1dMdD+PHKrnL1WGIjYNfMfKisWGm6JVGok3Mu4xZ1XqudiOB8j4zn8eKrsjQFrbjkV46svbmP7kyiNIIeQrwxYg4uBJORcnCiFJVwJ9OByYzn85ICNWFsiinECFxqbMAU3pK59ThahCB+GQna8SL9+Cnqs5nffvq7WPLtfYX9MAfTjS5PmwEl+MPLc1AIrXJb/+MtAzxZsusBPh3IFgUdZdwsqXSleH8KAhUwipsFgDNFbV1pQP+/fG4Irw9Kzalfkbzww7jxIWUHSNZS3ORDtULvI958bEynuL3D6Y~-1~-1~1774596444~AAQAAAAF%2f%2f%2f%2f%2f8X6NEAvrXBmQMevGxK4dvnjMPtMVY0fQS689Md5v4wkN1d57i4eAyoL7cOW2qyIidndx+ZdrtBx6S9cSTr8JojBXbjLecUhZC0A~-1",
+      "domain": ".www.nike.in",
+      "path": "/",
+      "expires": 1806128846.739147,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://www.nike.in",
+      "localStorage": [
+        {
+          "name": "ak_a",
+          "value": "776EA03F5419C851CFAE1444426DCD6F"
+        },
+        {
+          "name": "NIKE_CID",
+          "value": "{}"
+        },
+        {
+          "name": "ak_ax",
+          "value": "-1"
+        },
+        {
+          "name": "guestSessionInitialized",
+          "value": "true"
+        }
+      ]
+    }
+  ]
+}
