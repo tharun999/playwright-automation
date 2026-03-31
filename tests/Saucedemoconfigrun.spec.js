@@ -1,8 +1,10 @@
 import{test,expect} from '@playwright/test'
+import { TIMEOUT } from 'node:dns';
 test(' test storage state',async ({page})=>{
     await page.goto('/inventory.html')
     const cookies=await page.context().cookies();
     console.log('cookies:',cookies)
+    await page.reload({ waitUntil:'load',TIMEOUT:process.env.TIME})
     const links=await page.$$("//*[@class='inventory_item_label']/a")
         for(let link of links){
             let text=await link.textContent();
