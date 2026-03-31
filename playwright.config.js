@@ -1,6 +1,8 @@
 // @ts-check
 import { defineConfig, devices } from '@playwright/test';
+import dotenv from 'dotenv'
 
+dotenv.config({path: 'config.env'});
 /**
  * Read environment variables from file.
  * https://github.com/motdotla/dotenv
@@ -12,6 +14,7 @@ import { defineConfig, devices } from '@playwright/test';
 /**
  * @see https://playwright.dev/docs/test-configuration
  */
+
 export default defineConfig({
   testDir: './tests',
   /* Run tests in files in parallel */
@@ -42,7 +45,7 @@ export default defineConfig({
       name:'Sauce-chrome',
       use:{
         browserName:'chromium',
-        baseURL:'https://www.saucedemo.com/',
+        baseURL:process.env.SAUCE_URL,
         storageState:'state-sauce.json',
 
       },
@@ -51,7 +54,7 @@ export default defineConfig({
       name:'nike-chrome',
       use:{
         browserName:'chromium',
-        baseURL:'https://www.nike.in/',
+        baseURL:process.env.NIKE_URL,
         storageState:'state-nike.json',
       },
     },

@@ -11,6 +11,8 @@ page.getByTitle() to locate an element by its title attribute.
 page.getByTestId() to locate an element based on its data-testid attribute (other attributes can be configured).
 */
 test('Built in locators',async ({page})=>{
+    const sauceContext = await browser.newContext({ storageState: 'state-sauce.json' });
+    page= await sauceContext.newPage();
     await page.goto('https://www.saucedemo.com/')
     //const logo= await page.getByAltText('Nike').first()
     //await expect(logo).toBeVisible()
